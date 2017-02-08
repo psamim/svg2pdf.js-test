@@ -4,7 +4,7 @@ jsPDF = require('jspdf-yworks');
 svg2pdf = require('svg2pdf.js');
 
 const pdf = new jsPDF('l', 'pt', [600, 800]);
-const svg = require('!file!./file.svg');
+const svg = require('!raw!./file.svg');
 const div = document.createElement('div');
 div.innerHTML = svg;
 const svgElemnt = div.firstChild;
