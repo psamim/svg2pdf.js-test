@@ -14,3 +14,4 @@ svg2pdf(svgElemnt, pdf, {
   yOffset: 0,
   scale: 1,
 });
+pdf.save('ok.pdf');
