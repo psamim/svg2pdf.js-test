@@ -12,7 +12,7 @@
     "file-loader": "^0.10.0",
     "jspdf-yworks": "^1.2.68",
     "raw-loader": "^0.5.1",
-    "svg2pdf.js": "^1.0.3",
+    "svg2pdf.js": "^1.0.4",
     "webpack": "^1.13.1"
   }
 }
